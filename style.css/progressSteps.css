@@ -1,0 +1,73 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(240, 248, 255, 0.194);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+
+.circle {
+  background: blue;
+  border-radius: 360px;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+p{
+    background: rgba(250, 245, 245, 0.973);
+    width: 30px;
+    height: 30px;
+    border-radius: 360px;
+    padding: 5px 11px;
+    color: grey;
+}
+
+.progress-line {
+  width: 100px;
+  height: 5px;
+  background-color: rgb(220, 220, 220);
+  /* transition: 1s all; */
+}
+
+.progress {
+  background-color: blue;
+  height: 5px;
+  width: 0;
+  transition: 0.4s all;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-container > button {
+  background: rgba(35, 98, 150, 0.646);
+  width: 100px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  padding: 5px;
+  margin-left: 20px;
+  text-transform: uppercase;
+
+}
+
+.btn-container > button:hover {
+  background: blue;
+  cursor: pointer;
+}
